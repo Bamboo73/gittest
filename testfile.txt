@@ -23,3 +23,22 @@
 参考：https://www.bilibili.com/video/BV1Aq4y1q7hr/?spm_id_from=333.788&vd_source=4e6765316c997e97555f300d53b2183f
 不过不关键，我用魔法。
 【TS 12:37】
+
+
+
+
+“休斯顿，我们遇到了一个问题”
+没有办法从github上面clone代码，这个仓库不行，看了看别的公共仓库也不行，会显示：
+Cloning into 'gittest'...
+ssh: connect to host github.com port 22: Connection timed out
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+另一个与倒立摆相关的人形机器人的项目试图clone当中会发现：
+$ git clone https://github.com/stephane-caron/lipm_walking_controller.git
+Cloning into 'lipm_walking_controller'...
+fatal: unable to access 'https://github.com/stephane-caron/lipm_walking_controller.git/': Failed to connect to github.com port 443 after 21093 ms: Couldn't connect to server
+
+下面尝试解决这个问题。
